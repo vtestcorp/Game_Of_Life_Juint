@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.LM.tests.LocationMgr_addstore">
+        <methods>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+          <include name="setup"/>
+          <include name="validate_addStore"/>
+        </methods>
+      </class> <!-- com.LM.tests.LocationMgr_addstore -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
